@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        xmlns:android = "http://schemas.android.com/apk/res/android"
+<widget xmlns     = "https://www.w3.org/ns/widgets"
+        xmlns:gap = "https://phonegap.com/ns/1.0"
+        xmlns:android = "https://schemas.android.com/apk/res/android"
         id        = "com.avate.avatemobile"
         versionCode = "37000"
         android-versionCode="37000"
@@ -12,7 +12,7 @@
         Ambiente Virual de Aprendizaje
     </description>
 
-    <author href="http://www.tecnologicoedupraxis.com" email="mobile@avates.com">
+    <author href="https://www.tecnologicoedupraxis.com" email="mobile@avates.com">
         Avate Mobile team
     </author>
 
