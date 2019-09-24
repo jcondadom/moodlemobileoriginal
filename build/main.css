@@ -52058,7 +52058,7 @@ ion-app.app-root .button-no-uppercase {
   }
   ion-app.app-root .core-center-view .scroll-content > * {
     margin: 0 auto;
-    width: 100%;
+    width: 70%;
     max-width: 600px;
   }
 }
@@ -58996,7 +58996,7 @@ ion-app.app-root page-core-login-credentials .core-center-view .scroll-content {
 
 ion-app.app-root page-core-login-credentials .core-center-view .scroll-content > * {
   margin: 0 auto;
-  width: 100%;
+  width: 70%;
   max-width: 600px;
 }
 
@@ -59045,15 +59045,6 @@ ion-app.app-root page-core-login-credentials .input-cover {
   touch-action: manipulation;
 }
 
-ion-app.app-root page-core-login-credentials .box {
-  position: relative;
-  margin-top: 150px;
-  /*padding: 20px;*/
-  /*margin: 70px 0 -90px 0;        */
-  color: #3a3a3a;
-  position: relative;
-}
-
 ion-app.app-root page-core-login-credentials .boton {
   background-color: transparent;
   color: #fff;
@@ -59066,6 +59057,10 @@ ion-app.app-root page-core-login-credentials .boton {
   color: #fff;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+ion-app.app-root page-core-login-credentials .box {
+  margin-top: 50px;
 }
 
 ion-app.app-root page-core-login-credentials .item-input {
