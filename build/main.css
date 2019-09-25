@@ -58949,6 +58949,27 @@ ion-app.app-root .split-pane-side core-grades-course .core-grades-table .hidden-
   opacity: 0;
 }
 
+ion-app.app-root page-core-login-credentials .core-center-view .scroll-content {
+  /*display: flex!important;*/
+  -webkit-align-content: center !important;
+  -ms-flex-line-pack: center !important;
+  align-content: center !important;
+  background-image: url("../assets/img/init.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+ion-app.app-root page-core-login-credentials .core-center-view .scroll-content > * {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 600px;
+}
+
 ion-app.app-root page-core-login-credentials .scroll-content {
   background: radial-gradient(white, #e9e9e9);
 }
