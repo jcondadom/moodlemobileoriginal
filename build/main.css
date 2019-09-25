@@ -59022,12 +59022,18 @@ ion-app.app-root page-core-login-credentials img.login-logo {
   max-width: 300px;
 }
 
+ion-app.app-root page-core-login-credentials .prueba {
+  width: 90%;
+  max-width: 300px;
+}
+
 ion-app.app-root page-core-login-credentials .box {
   padding: 16px;
-  margin: 8px;
+  /*margin: 8px;*/
   background: transparent;
   /*border: 1px solid $core-login-box-background-border;*/
   color: #fff;
+  margin-top: 100px;
 }
 
 ion-app.app-root page-core-login-credentials .item-input {
