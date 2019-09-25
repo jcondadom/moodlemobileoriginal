@@ -56924,6 +56924,13 @@ ion-app.app-root .core-loading-center {
   position: static !important;
 }
 
+ion-app.app-root .spinner-crescent circle {
+  fill: #fff;
+  stroke-width: 3px;
+  /*stroke-dasharray: 40px;
+        stroke-dashoffset: 10px;*/
+}
+
 ion-app.app-root .scroll-content > core-loading,
 ion-app.app-root ion-content > .scroll-content > core-loading,
 ion-app.app-root core-tab core-loading,
@@ -56959,6 +56966,7 @@ ion-app.app-root ion-content > .scroll-content > core-loading > .core-loading-co
 ion-app.app-root core-tab core-loading > .core-loading-container .core-loading-spinner,
 ion-app.app-root .core-loading-center > .core-loading-container .core-loading-spinner,
 ion-app.app-root core-loading.core-loading-loaded > .core-loading-container .core-loading-spinner {
+  color: #fff;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
