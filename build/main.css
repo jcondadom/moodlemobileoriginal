@@ -58986,7 +58986,8 @@ ion-app.app-root page-core-login-credentials img {
 
 ion-app.app-root page-core-login-credentials .scroll-content {
   background-image: url("../assets/img/init.jpeg");
-  background-size: 430px 850px;
+  background-size: cover;
+  /*430px 850px*/
   /*cover*/
   background-repeat: no-repeat;
 }
@@ -59042,7 +59043,7 @@ ion-app.app-root page-core-login-credentials .box {
   background: transparent;
   /*border: 1px solid $core-login-box-background-border;*/
   color: #fff;
-  margin-top: 210px;
+  /*margin-top: 210px;*/
   /*margin-left: 80px;*/
 }
 
