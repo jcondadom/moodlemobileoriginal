@@ -58957,36 +58957,50 @@ ion-app.app-root .split-pane-side core-grades-course .core-grades-table .hidden-
   opacity: 0;
 }
 
-ion-app.app-root page-core-login-credentials .core-center-view .scroll-content {
-  /*display: flex!important;*/
-  -webkit-align-content: center !important;
-  -ms-flex-line-pack: center !important;
-  align-content: center !important;
+ion-app.app-root page-core-login-credentials {
+  /*.scroll-content {
+        background: $core-login-page-background-color;
+    }*/
+  /*.item-md {
+        position: relative;
+        font-size: 1.6rem;
+        font-weight: normal;
+        text-transform: none;
+        color: $core-color;
+        background-color: #ffffff;
+     
+        border-radius: 50px;        
+    }*/
+  /*.box {
+        padding: 16px;
+        margin: 8px;
+        background: $core-login-box-background-color;
+        border: 1px solid $core-login-box-background-border;
+        color: $core-login-box-text-color;
+    }*/
+}
+
+ion-app.app-root page-core-login-credentials img {
+  max-width: 100%;
+}
+
+ion-app.app-root page-core-login-credentials .scroll-content {
   background-image: url("../assets/img/init.png");
+  background-size: cover;
+  /*400px 900px;*/
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  -webkit-box-align: center !important;
-  -webkit-align-items: center !important;
-  -ms-flex-align: center !important;
-  align-items: center !important;
+  margin-left: -35px;
 }
 
-ion-app.app-root page-core-login-credentials .core-center-view .scroll-content > * {
-  margin: 0 auto;
-  width: 70%;
-  max-width: 600px;
-}
-
-ion-app.app-root page-core-login-credentials .item-md {
-  position: relative;
-  font-size: 1.6rem;
-  font-weight: normal;
-  text-transform: none;
-  color: #1D3162;
-  background-color: #ffffff;
-  /*box-shadow: 0px 14px 25px $core-color;*/
-  border-radius: 50px;
+ion-app.app-root page-core-login-credentials ion-item {
+  border-radius: 30px !important;
+  padding-left: 30px !important;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  /*border: 1px solid #ffffff;*/
+  border-bottom: 0px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 ion-app.app-root page-core-login-credentials .boton {
@@ -59009,22 +59023,14 @@ ion-app.app-root page-core-login-credentials .forgotten_password {
   color: #fff;
 }
 
-ion-app.app-root page-core-login-credentials .scroll-content {
-  background: radial-gradient(white, #e9e9e9);
-}
-
-ion-app.app-root page-core-login-credentials img {
-  max-width: 100%;
-}
-
 ion-app.app-root page-core-login-credentials img.login-logo {
   width: 90%;
   max-width: 300px;
 }
 
-ion-app.app-root page-core-login-credentials .prueba {
-  width: 90%;
-  max-width: 300px;
+ion-app.app-root page-core-login-credentials .logo-row {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 ion-app.app-root page-core-login-credentials .box {
@@ -59033,7 +59039,8 @@ ion-app.app-root page-core-login-credentials .box {
   background: transparent;
   /*border: 1px solid $core-login-box-background-border;*/
   color: #fff;
-  margin-top: 100px;
+  margin-top: 210px;
+  margin-left: 40px;
 }
 
 ion-app.app-root page-core-login-credentials .item-input {
