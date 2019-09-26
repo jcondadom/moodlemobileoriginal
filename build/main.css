@@ -58989,7 +58989,7 @@ ion-app.app-root page-core-login-credentials .scroll-content {
   background-size: cover;
   /*400px 900px;*/
   background-repeat: no-repeat;
-  margin-left: -35px;
+  /*margin-left: -35px;        */
 }
 
 ion-app.app-root page-core-login-credentials ion-item {
