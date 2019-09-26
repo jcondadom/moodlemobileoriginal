@@ -59003,7 +59003,7 @@ ion-app.app-root page-core-login-credentials ion-item {
   box-shadow: none !important;
 }
 
-ion-app.app-root page-core-login-credentials .radius {
+ion-app.app-root page-core-login-credentials .core-oauth-icon {
   border-radius: 30px !important;
 }
 
